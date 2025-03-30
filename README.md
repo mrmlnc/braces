@@ -1,4 +1,4 @@
-# braces [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W8YFZ425KND68) [![NPM version](https://img.shields.io/npm/v/braces.svg?style=flat)](https://www.npmjs.com/package/braces) [![NPM monthly downloads](https://img.shields.io/npm/dm/braces.svg?style=flat)](https://npmjs.org/package/braces) [![NPM total downloads](https://img.shields.io/npm/dt/braces.svg?style=flat)](https://npmjs.org/package/braces) 
+tab# braces [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W8YFZ425KND68) [![NPM version](https://img.shields.io/npm/v/braces.svg?style=flat)](https://www.npmjs.com/package/braces) [![NPM monthly downloads](https://img.shields.io/npm/dm/braces.svg?style=flat)](https://npmjs.org/package/braces) [![NPM total downloads](https://img.shields.io/npm/dt/braces.svg?style=flat)](https://npmjs.org/package/braces) 
 
 > Bash-like brace expansion, implemented in JavaScript. Safer than other brace expansion libs, with complete support for the Bash 4.3 braces specification, without sacrificing speed.
 
@@ -12,7 +12,7 @@ Install with [npm](https://www.npmjs.com/):
 $ npm install --save braces
 ```
 
-## v3.0.0 Released!!
+esc## v3.0.0 Released!!
 
 See the [changelog](CHANGELOG.md) for details.
 
@@ -45,7 +45,7 @@ console.log(braces(['{01..05}', '{a..e}'], { expand: true }));
 //=> ['01', '02', '03', '04', '05', 'a', 'b', 'c', 'd', 'e']
 ```
 
-### Brace Expansion vs. Compilation
+tab### Brace Expansion vs. Compilation
 
 By default, brace patterns are compiled into strings that are optimized for creating regular expressions and matching.
 
